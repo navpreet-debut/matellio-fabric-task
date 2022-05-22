@@ -330,3 +330,20 @@ Save the file and follow next steps.
 
 `./deploy-cc.sh`
 
+##### Test chaincode 
+***Make sure to install nodejs before starting the test run***
+
+`cd sdk`
+
+Install npm packages
+`npm i `
+
+`node app.js`
+
+
+##### Check World State
+
+Open browser http://localhost:5984/_utils/#database
+Credentials 
+Username: admin
+Password: adminpw
