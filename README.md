@@ -14,7 +14,35 @@ Let's install the required thing one by one.
 
 For more details check this link https://hyperledger-fabric.readthedocs.io/en/release-2.2/prereqs.html
 
+### Set Home directory (if not set already)
+
   
+
+`sudo nano ~/.profile`
+
+  
+
+Then, add the following information to the end of your file:
+
+  
+
+`export HOME=/home/ubuntu`
+
+**Replace ubuntu with username**
+
+  
+
+then hit **ctrl+x** then y and then enter key
+
+  
+
+Next, refresh your profile by running the following command:
+
+  
+
+`source ~/.profile`
+
+
 ### Install GIT
 
   
