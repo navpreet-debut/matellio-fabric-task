@@ -1,5 +1,4 @@
 #!/bin/bash
-export PROJECT_DIR=${HOME}mattelio-network
-export PATH=${PWD}/../bin:$PATH
-export FABRIC_CFG_PATH=${PWD}/configtx
-export VERBOSE=false
+export PATH=${HOME}fabric-samples/bin:$PATH
+export FABRIC_CFG_PATH=${HOME}fabric-samples/config
+export PROJECT_DIR=${HOME}matellio-network-task
