@@ -339,6 +339,12 @@ https://github.com/navpreet-debut/matellio-fabric-task
 
 `./setup-network.sh`
 
+#### set DNS enteries in /etc/hosts file
+
+127.0.0.1       orderer.matelliofabric.com
+127.0.0.1       peer0.org1.matelliofabric.com
+127.0.0.1       ca.matelliofabric.com
+
 ##### Create channel
 
 `./setup-channel`
