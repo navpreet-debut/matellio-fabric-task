@@ -9,4 +9,4 @@ echo "##### Generating Certificates #####"
 echo "#########  Generating Orderer Genesis block ##############"
 # configtxgen -profile OrdererGenesis -channelID system-channel -outputBlock ./system-genesis-block/genesis.block
 
-# docker-compose -f ./docker/docker-compose-cli.yaml up -d
+docker-compose -f ./docker/docker-compose-cli.yaml up -d
