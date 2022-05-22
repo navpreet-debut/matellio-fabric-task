@@ -2,8 +2,8 @@
 . set-env.sh
 
 export CHANNEL_NAME="mychannel"
-export CC_NAME="student_basic"
-export CC_SRC_PATH="./chaincode/chaincode-javascript"
+export CC_NAME="student"
+export CC_SRC_PATH="./chaincode/student-chaincode"
 export CC_SRC_LANGUAGE="javascript"
 export CC_VERSION="1.0"
 export CC_SEQUENCE="1"
